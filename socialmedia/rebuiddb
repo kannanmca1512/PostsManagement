@@ -1,0 +1,5 @@
+
+rm -rf db.sqlite3
+python manage.py makemigrations social_app
+python manage.py migrate 
+python manage.py init
